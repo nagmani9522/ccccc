@@ -1,0 +1,10 @@
+workflow:
+ spotify-workflow:
+ name: Spotify Pipeline
+ scripts:
+  - name: CICD Started
+    script: echo "Welcome to your CICD set up"
+    publishing:
+    email:
+    recipients:
+    - nagmani@ios.com
